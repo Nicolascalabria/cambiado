@@ -14,6 +14,15 @@ body {
     color: black;
 }
 
+header {
+    padding: 10px;
+    background-color: black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
 header nav {
     display: flex;
     justify-content: center;
@@ -24,19 +33,21 @@ header nav ul {
     display: flex;
     justify-content: space-between;
     flex-flow: row nowrap;
-    width: 40%;
-    font-size: 1.8rem;
-    font-weight: bold;
+    font-size: 1.6rem;
+    padding: 10px;
+    margin: 5px;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color: goldenrod;
+    padding: 10px;
+    font-weight: bolder;
 }
 
 nav ul li a:hover {
     border-bottom: 1px solid white;
-    color: grey;
+    color: white;
 }
 
 .logo {
@@ -60,8 +71,8 @@ main {
 
 .principal {
     background-color: black;
+    background-image: url("../recursos/fondofinal.png");
     height: 100vh;
-    background-image: url("../recursos/fondo-index.png");
 }
 
 .uno {
@@ -94,6 +105,7 @@ footer {
     font-size: 3rem;
     padding: 10px;
     margin: 10px;
+    font-family: 'Libre Baskerville', serif;
 }
 
 .contenidoCard {
@@ -118,5 +130,4 @@ footer {
 .bajadaCard {
     width: 30%;
     font-size: 3rem;
-    color:
 }
